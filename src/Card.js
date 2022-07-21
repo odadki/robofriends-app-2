@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Card.css";
-// import MoreDetails from "./MoreDetails";
 
 const Card = ({ name, email, id, phone, username, website }) => {
   const [moreInfoBtn, setMoreInfoBtn] = useState(false);
@@ -37,8 +36,6 @@ const Card = ({ name, email, id, phone, username, website }) => {
             </ul>
           </div>
         )}
-        {/* <p>{email}</p> */}
-        {/* <MoreDetails /> */}
       </div>
     </div>
   );
