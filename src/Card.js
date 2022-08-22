@@ -12,7 +12,10 @@ const Card = ({ name, email, id, phone, username, website }) => {
 
   return (
     <div className="robo-card tc bg-light-green dib br4 ma2 shadow-5 ph2 pb3 items-start">
-      <img src={`https://robohash.org/${id}?200x200`} alt="robots" />
+      <img
+        src={`https://robohash.org/${id}?200x200`}
+        alt="robofriends robots"
+      />
       <div>
         <h2>{name}</h2>
         <button className="card-button" onClick={moreInfo}>
